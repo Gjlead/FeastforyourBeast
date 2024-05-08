@@ -13,12 +13,10 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-app.UseHttpsRedirection();
-app.UseStaticFiles();
+app.UseHttpsRedirection(); // Redirects HTTP requests to HTTPS.
+app.UseStaticFiles(); // Enables static files, such as HTML, CSS, images, and JavaScript to be served.
 
 app.UseRouting();
-
-app.UseAuthorization();
 
 app.MapRazorPages();
 
