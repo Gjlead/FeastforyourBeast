@@ -4,7 +4,7 @@
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public int PlanetId { get; set; }
+        public string Planet { get; set; }
         public bool IsMobile { get; set; }
         public ICollection<Availability> Availabilities { get; set; }
         public string Description { get; set; }

@@ -3,113 +3,113 @@
     {
       "Name": "Lord Nearquaad",
       "Planet": "Duloc",
-      "Mobile": "false",
-      "Description": "Mirror, mirror on the wall, am I not the most perfect sitter of them all? Brave knights and beast owners, fear not! It is I, Lord Nearquaad, and I will be your perfect beast sitter, so you can go and have a perfect holiday – preferably far away from my castle. <br> No beast or monster is too scary for me. From the firebreathing dragon in the highest tower to the most lowly ogre of the stinkiest swamps – I will care for them all. Some of them may cry, but it's a sacrifice I am willing to make.",
+      "IsMobile": "false",
+      "Description": "Mirror, mirror on the wall, am I not the most perfect sitter of them all? Brave knights and beast owners, fear not! It is I, Lord Nearquaad, and I will be your perfect beast sitter, so you can go and have a perfect holiday ï¿½ preferably far away from my castle. <br> No beast or monster is too scary for me. From the firebreathing dragon in the highest tower to the most lowly ogre of the stinkiest swamps ï¿½ I will care for them all. Some of them may cry, but it's a sacrifice I am willing to make.",
       "Gender": "male"
     },
     {
       "Name": "Agent Smiff",
       "Planet": "Earth",
-      "Mobile": "false",
+      "IsMobile": "false",
       "Description": "You know what is the best thing about me? There's so many me's. <br> You cannot hide from me Neo. Not as a person, and not inside the skin of one of those beasts. You know what other organism hides in the flesh of something else? A virus. You are a disease... and I am the cure. I will find you, Neo. One of these beasts I care for will be you.",
       "Gender": "male"
     },
     {
       "Name": "Agent Smiff",
       "Planet": "Earth",
-      "Mobile": "false",
+      "IsMobile": "false",
       "Description": "You know what is the best thing about me? There's so many me's. <br> You cannot hide from me Neo. Not as a person, and not inside the skin of one of those beasts. You know what other organism hides in the flesh of something else? A virus. You are a disease... and I am the cure. I will find you, Neo. One of these beasts I care for will be you.",
       "Gender": "male"
     },
     {
       "Name": "Agent Smiff",
       "Planet": "Earth",
-      "Mobile": "false",
+      "IsMobile": "false",
       "Description": "You know what is the best thing about me? There's so many me's. <br> You cannot hide from me Neo. Not as a person, and not inside the skin of one of those beasts. You know what other organism hides in the flesh of something else? A virus. You are a disease... and I am the cure. I will find you, Neo. One of these beasts I care for will be you.",
       "Gender": "robot"
     },
     {
       "Name": "Agent Smiff",
       "Planet": "Earth",
-      "Mobile": "false",
+      "IsMobile": "false",
       "Description": "You know what is the best thing about me? There's so many me's. <br> You cannot hide from me Neo. Not as a person, and not inside the skin of one of those beasts. You know what other organism hides in the flesh of something else? A virus. You are a disease... and I am the cure. I will find you, Neo. One of these beasts I care for will be you.",
       "Gender": "robot"
     },
     {
       "Name": "Agent Smiff",
       "Planet": "Earth",
-      "Mobile": "false",
+      "IsMobile": "false",
       "Description": "You know what is the best thing about me? There's so many me's. <br> You cannot hide from me Neo. Not as a person, and not inside the skin of one of those beasts. You know what other organism hides in the flesh of something else? A virus. You are a disease... and I am the cure. I will find you, Neo. One of these beasts I care for will be you.",
       "Gender": "robot"
     },
     {
       "Name": "Tom Grammaticus",
       "Planet": "",
-      "Mobile": "true",
-      "Description": "Hi, I'm Tom, and I am several thousand years old. You heard that right! I have spent centuries perfecting my craft, and will prepare the most amazing feast for your beast. I hope you don't mind me trying to save the whole universe every now and then – that's just my thing and no one else really wants to do that, so I guess I have to. Especially because it is partly my fault that it got so bad in the first place. But anyway, your beast will be cared for, no matter what!",
+      "IsMobile": "true",
+      "Description": "Hi, I'm Tom, and I am several thousand years old. You heard that right! I have spent centuries perfecting my craft, and will prepare the most amazing feast for your beast. I hope you don't mind me trying to save the whole universe every now and then - that's just my thing and no one else really wants to do that, so I guess I have to. Especially because it is partly my fault that it got so bad in the first place. But anyway, your beast will be cared for, no matter what!",
       "Gender": "male"
     },
     {
       "Name": "Well written character",
       "Planet": "Mars",
-      "Mobile": "false",
+      "IsMobile": "false",
       "Description": "My greetings! My name is Well written character, and I am the perfect fit for all your beast-feeding needs. I was literally made for this job, and somehow I feel compelled to charge an astoundingly small amount of money for my services. You need someone to feast your beast, or to call a priest if it's deceased? I am your guy. Book me today.",
       "Gender": "male"
     },
     {
       "Name": "Olympos Parsson",
       "Planet": "",
-      "Mobile": "true",
+      "IsMobile": "true",
       "Description": "Oh boy. How did I end up here? I guess Tom convinced me to help, as always. I just want a peaceful life on my farm, maybe switch places every few centuries. But, oh well. Better this job than this stopping the Emperor business stuff he is involved in.",
       "Gender": "male"
     },
     {
       "Name": "Solboom",
       "Planet": "Planet 4546B",
-      "Mobile": "false",
+      "IsMobile": "false",
       "Description": "Hi there, friend! Maybe you have heard of Solbloom, my distant sister, the forest gnome. Somehow she or something like her (me, for example) gets referenced in everything that guy creates. Kinda cheap, if you ask me, referencing his poem series Solblums Reise ins Verderben that often. Stupid too, because it's not even publicly available. Dunno why he does it. Anyway! <br> I like things that go boom and green monsters, so if you have any of those, hit me up!",
       "Gender": "female"
     },
     {
       "Name": "Bob",
       "Planet": "",
-      "Mobile": "true",
+      "IsMobile": "true",
       "Description": "Hello, fellow human friend! It is I, Bob. Like you I am a perfectly normal human being and am deeply interested in things like... er breathing air. And.. lying unconsciously on a soft surface. Consuming sustenance! You know, the ordinary stuff we humans do. Hmm, sustenance. I am salivating, like we humans do, right? So if you need a beast taken care for? Of? Then just tell me. I will gladly feast on your beast. Er, I mean I will feast your beast. Feast? Hmm, sustenance.",
       "Gender": "male"
     },
     {
       "Name": "Jane Doe",
       "Planet": "Gallifrey",
-      "Mobile": "false",
+      "IsMobile": "false",
       "Description": "Hiiii! Hahaha muah, muah. So nice to meet you! Giiirl, do you look FABULOUS! AHHH! You really need to tell me where you got THAT lipstick, it's just sooo #goals. And that peroxide blonde hair you're rocking? So original! I love it! So let's talk beast-feasting! I just adore all those ittybitty cutie cosmic horror monsters, aren't they just the best? The very best? So adorable! I am studying IT right now (you know, International Travelling), and well, a girl's gotta eat you know, so I thought, hey, why not care for some cute beasts every now and then and make some sweet cash on the side, right? #hustleCulture So yeah just hit me up, I will answer immediately (I mean, on Wednesday, maybe also on Thursday, I gotta go to my pilates course and so on, etcetera etcetera, you know it!) and we can talk deets. By the way have you seen Katelynn's new look? So amazing, right? I really gotta ask her where she got those badass ritual scars, they are SO en vogue. It's kinda hard to get them done here on Gallifrey, you know, but girl she got them done somehow, and I gotta know her secret! Last week I met with Ceitlin from the water polo team, you know, and you gotta hear what she said! I was like, heeeey, longtimenosee, and she just straight up- [Description limit reached.]",
       "Gender": "female"
     },
     {
       "Name": "Jane Bro",
       "Planet": "Proxima Centauri b",
-      "Mobile": "false",
+      "IsMobile": "false",
       "Description": "Sup? Got some monsters that need caring for? I'm your girl. Don't want those cutesy fluffy unicorn things tho. Only hit me up if you got one of those big hairy bastards that need some nice amount of wrangling. I handle those. Leave it to me. Also, leave me a big tip. I don't work for free, bro.",
       "Gender": "female"
     },
     {
       "Name": "Bad Luck Brian",
       "Planet": "Planet 4546B",
-      "Mobile": "false",
+      "IsMobile": "false",
       "Description": "Ohmygod I'm sorry. I didn't mean to drown Mister Pooplewutz. Oh, oh, and if you are the owner of Scallywag, I'm so very sorry for that crematorium mixup! For real! It won't happen again, I promise. Oh and Mrs Marsh, please reply, you haven't paid me yet :( I mean, I am sorry for feeding your reaper leviathan with jellyrays, I didn't know they were poisonous! But please, I need that money.",
       "Gender": "male"
     },
     {
       "Name": "B3ast Cust0d1an",
       "Planet": "",
-      "Mobile": "true",
+      "IsMobile": "true",
       "Description": "01001001 01101110 01101001 01110100 01101001 01100001 01101100 01101001 01111010 01101001 01101110 01100111 00100000 01100111 01110010 01100101 01100101 01110100 01101001 01101110 01100111 00100000 01110000 01110010 01101111 01110100 01101111 01100011 01101111 01101100 00101110 00101110 00101110 00100000 01001001 01101110 01101001 01110100 01101001 01100001 01101100 01101001 01111010 01100101 01100100 00101110 00100000 01000111 01110010 01100101 01100101 01110100 01101001 01101110 01100111 01110011 00101110 00100000 01001001 00100000 01100001 01101101 00100000 01110100 01101000 01100101 00100000 01000010 00110011 01100001 01110011 01110100 00100000 01000011 01110101 01110011 01110100 00110000 01100100 00110001 01100001 01101110 00101110 00100000 01001001 00100000 01110111 01101001 01101100 01101100 00100000 01100011 01100001 01110010 01100101 00100000 01100110 01101111 01110010 00100000 01111001 01101111 01110101 01110010 00100000 01100010 01100101 01100001 01110011 01110100 00101110 00100000 01010011 01100101 01101110 01100100 00100000 01100100 01100101 01110100 01100001 01101001 01101100 01110011 00101110 00100000 01000101 01101110 01100100 00100000 01110100 01110010 01100001 01101110 01110011 01101101 01101001 01110011 01110011 01101001 01101111 01101110 00101110",
       "Gender": "robot"
     },
     {
       "Name": "Mr. Feast",
       "Planet": "Earth",
-      "Mobile": "false",
-      "Description": "Hello community! Wanna know something about me? All I do is wake up every day and obsess over how to make the best videos possible. It's all I care about. It's the only thing that's ever really made me happy. And for my new video, I wanna show you some really cool beasts – and how to care for them! So yeah if you got beasts, I've got cash, so hit me up and let me care for them and I will pay you the usual fee. What was it? One hundred million dollars? I easily get that from my sponsors. Let's feast the greatest beasts!",
+      "IsMobile": "false",
+      "Description": "Hello community! Wanna know something about me? All I do is wake up every day and obsess over how to make the best videos possible. It's all I care about. It's the only thing that's ever really made me happy. And for my new video, I wanna show you some really cool beasts ï¿½ and how to care for them! So yeah if you got beasts, I've got cash, so hit me up and let me care for them and I will pay you the usual fee. What was it? One hundred million dollars? I easily get that from my sponsors. Let's feast the greatest beasts!",
       "Gender": "male"
     }
   ]
