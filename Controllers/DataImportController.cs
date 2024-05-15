@@ -15,6 +15,8 @@ namespace FeastforyourBeast.Controllers
             _context = context;
         }
 
+        /*
+         * For initial import into empty database - one-time use
         [HttpPost]
         public IActionResult ImportData()
         {
@@ -28,5 +30,6 @@ namespace FeastforyourBeast.Controllers
                 return StatusCode(500, $"An error occured: {ex.Message}");
             }
         }
+        */
     }
 }
