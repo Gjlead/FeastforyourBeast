@@ -9,6 +9,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
+builder.Services.AddControllers();
+
 builder.Services.AddRazorPages();
 
 var app = builder.Build();
@@ -27,5 +29,6 @@ app.UseStaticFiles(); // Enables static files, such as HTML, CSS, images, and Ja
 app.UseRouting();
 
 app.MapRazorPages();
+app.MapControllers();
 
 app.Run();

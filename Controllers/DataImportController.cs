@@ -20,7 +20,7 @@ namespace FeastforyourBeast.Controllers
         {
             try
             {
-                JsonImporter.ImportData("FeastforyourBeast\\Data.json", _context);
+                JsonImporter.ImportData("Data.json", _context);
                 return Ok("Data imported successfully.");
             }
             catch (Exception ex)

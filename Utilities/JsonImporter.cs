@@ -26,19 +26,18 @@ namespace FeastforyourBeast.Utilities
                 switch (sitter["Gender"])
                 {
                     case "male":
-                        newSitter.ProfilePicture = GetProfilePicture("FeastforyourBeast\\Images\\male.png;");
+                        newSitter.ProfilePicture = GetProfilePicture("Images\\male.png");
                         break;
                     case "female":
-                        newSitter.ProfilePicture = GetProfilePicture("FeastforyourBeast\\Images\\female.png;");
+                        newSitter.ProfilePicture = GetProfilePicture("Images\\female.png");
                         break;
                     case "robot":
-                        newSitter.ProfilePicture = GetProfilePicture("FeastforyourBeast\\Images\\robot.png;");
+                        newSitter.ProfilePicture = GetProfilePicture("Images\\robot.png");
                         break;
                     default:
-                        newSitter.ProfilePicture = GetProfilePicture("FeastforyourBeast\\Images\\robot.png;");
+                        newSitter.ProfilePicture = GetProfilePicture("Images\\robot.png");
                         break;
                 }
-
                 dbContext.Sitter.Add(newSitter);
             }
 
