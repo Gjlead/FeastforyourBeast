@@ -1,10 +1,26 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Beast sitter with Feast for your Beast";
 }
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <p>Find a trustworthy beast sitter in your vicinity or willing and able to travel there.</p>
+    <input type="text" id="planetfield" placeholder="Your planet of residence">
+
+    <input type="text" id="myDate" placeholder="Select Date" readonly onclick="showCalendar()">
+    <div id="calendar" class="custom-calendar">
+        <div class="calendar-header">
+            <button onclick="prevYear()">&lt;</button>
+            <select id="year" onchange="renderCalendar()">
+                <!-- Need to make this dynamic -->
+                <option value="2024">2024</option>
+            </select>
+            <button onclick="nextYear()">&gt;</button>
+        </div>
+        <div id="calendarGrid" class="calendar-grid">
+            <!-- Calendar grid gets generated dynamically -->
+        </div>
+    </div>
 </div>

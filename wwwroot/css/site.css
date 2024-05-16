@@ -24,3 +24,30 @@ body {
 .strikethrough {
     text-decoration: line-through;
 }
+
+.custom-calendar {
+    position: absolute;
+    display: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    z-index: 1000;
+}
+
+.calendar-header {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.calendar-day {
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
