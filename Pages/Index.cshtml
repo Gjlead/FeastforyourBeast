@@ -9,13 +9,13 @@
     <p>Find a trustworthy beast sitter in your vicinity or willing and able to travel there.</p>
     <input type="text" id="planetfield" placeholder="Your planet of residence">
 
-    <input type="text" id="myDate" placeholder="Select Date" readonly onclick="showCalendar()">
+    <input type="text" id="myDate" placeholder="Select Imperial Date" readonly onclick="showCalendar()">
     <div id="calendar" class="custom-calendar">
         <div class="calendar-header">
             <button onclick="prevYear()">&lt;</button>
             <select id="year" onchange="renderCalendar()">
-                <!-- Need to make this dynamic -->
-                <option value="2024">2024</option>
+                <!-- Gets set dynamically via JavaScript -->
+                <option id="yearOption" value=""></option>
             </select>
             <button onclick="nextYear()">&gt;</button>
         </div>
