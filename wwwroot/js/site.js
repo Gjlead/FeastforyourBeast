@@ -69,12 +69,13 @@ function setCurrentYear() {
     yearOption.textContent = imperialYear;
 }
 
-
+// Translates a real year like 2024 into an Imperial year like 024.M2
 function getImperialYear(realYear) {
     var imperialYear = String(realYear % 1000).padStart(3, '0') + '.M' + Math.floor(realYear / 1000);
     return imperialYear;
 }
 
+// Translates an Imperial Year like 024.M2 into a real year like 2024
 function translateImperialYear(imperialYear) {
     var translatedYear = imperialYear.split('M')[1] + '' + imperialYear.split('.')[0];
     return translatedYear;
