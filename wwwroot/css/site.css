@@ -26,7 +26,6 @@ body {
 }
 
 .custom-calendar {
-    position: absolute;
     display: none;
     background-color: #fff;
     border: 1px solid #ccc;
@@ -50,4 +49,10 @@ body {
     text-align: center;
     padding: 5px;
     border: 1px solid #ccc;
+}
+
+.pastDate {
+    background-color: grey;
+    color: white;
+    pointer-events: none; /* Makes the date unclickable */
 }

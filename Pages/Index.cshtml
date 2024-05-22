@@ -2,6 +2,7 @@
 @model IndexModel
 @{
     ViewData["Title"] = "Beast sitter with Feast for your Beast";
+    Layout = "_Layout";
 }
 
 <div class="text-center">
@@ -9,7 +10,7 @@
     <p>Find a trustworthy beast sitter in your vicinity or willing and able to travel there.</p>
     <input type="text" id="planetfield" placeholder="Your planet of residence">
 
-    <input type="text" id="myDate" placeholder="Select Imperial Date" readonly onclick="showCalendar()">
+    <input type="text" id="dateField" placeholder="Select Imperial Date" readonly onclick="showCalendar()">
     <div id="calendar" class="custom-calendar">
         <div class="calendar-header">
             <button onclick="prevYear()">&lt;</button>
@@ -24,3 +25,7 @@
         </div>
     </div>
 </div>
+
+@section Scripts {
+    <script src="~/js/calendar.js" asp-append-version="true"></script> <!-- ~ is a shortcut to refer to the root directory. asp_append-version true busts caches. -->
+}
