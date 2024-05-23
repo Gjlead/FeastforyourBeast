@@ -56,13 +56,11 @@ body {
     display: inline-block;
 }
 
-.info-icon-container {
-    display: inline-block;
-    position: relative;
-    margin-left: 1px;
-}
-
 .info-icon {
+    position: absolute;
+    right: 5px; /* Position the icon inside the text field */
+    top: 50%;
+    transform: translateY(-50%);
     background-color: #007bff;
     color: white;
     border-radius: 50%;
@@ -88,7 +86,7 @@ body {
     width: 300px;
 }
 
-.info-icon-container:hover .tooltip {
+.info-icon:hover + .tooltip {
     visibility: visible;
     opacity: 1;
 }
