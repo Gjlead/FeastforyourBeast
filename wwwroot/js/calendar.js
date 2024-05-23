@@ -1,5 +1,6 @@
-﻿function showCalendar() {
-    console.log('Calendar script loaded!');
+﻿document.addEventListener("DOMContentLoaded", setCurrentYear);
+
+function showCalendar() {
     var calendar = document.getElementById("calendar");
     var dateField = document.getElementById("dateField");
     var rect = dateField.getBoundingClientRect();
@@ -11,6 +12,17 @@
 
     calendar.style.display = "block";
     renderCalendar(); // Call renderCalendar to display the calendar for the current year
+
+    document.addEventListener("click", closeCalendar);
+}
+
+function closeCalendar(event) {
+    var calendar = document.getElementById("calendar");
+    var dateField = document.getElementById("dateField");
+    if (calendar.style.display === "block" && !calendar.contains(event.target) && event.target !== dateField) {
+        calendar.style.display = "none";
+        document.removeEventListener("click", closeCalendar);
+    }
 }
 
 function prevYear() {
@@ -59,6 +71,7 @@ function renderCalendar() {
     updateYearOptions();
 }
 
+// Writes the time unit and year into the date field after clicking on a time unit in the calendar.
 function selectDate(timeUnit) {
     var year = document.getElementById("year").value;
     var selectedDate = String((timeUnit-1)*50).padStart(3, '0') + year;
@@ -83,22 +96,21 @@ function updateYearOptions() {
 // Sets the current year as the already selected option of the calendar
 function setCurrentYear() {
     var currentYear = new Date().getFullYear();
-    var imperialYear = String(currentYear % 1000).padStart(3, '0') + '.M' + Math.floor(currentYear / 1000);
+    var imperialYear = getImperialYear(currentYear);
     var yearOption = document.getElementById('yearOption');
     yearOption.value = imperialYear;
     yearOption.textContent = imperialYear;
 }
 
-// Translates a real year like 2024 into an Imperial year like 024.M2
+// Translates a real year like 2024 into an Imperial year like 024.M3
 function getImperialYear(realYear) {
-    var imperialYear = String(realYear % 1000).padStart(3, '0') + '.M' + Math.floor(realYear / 1000);
+    var imperialYear = String(realYear % 1000).padStart(3, '0') + '.M' + (Math.floor(realYear / 1000) + 1);
     return imperialYear;
 }
 
-// Translates an Imperial Year like 024.M2 into a real year like 2024
+// Translates an Imperial Year like 024.M3 into a real year like 2024
 function translateImperialYear(imperialYear) {
-    var translatedYear = imperialYear.split('M')[1] + '' + imperialYear.split('.')[0];
+    var translatedYear = (parseInt(imperialYear.split('M')[1]) - 1) + '' + imperialYear.split('.')[0];
+    console.log(translatedYear);
     return translatedYear;
 }
-
-document.addEventListener("DOMContentLoaded", setCurrentYear);

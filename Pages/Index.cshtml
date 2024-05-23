@@ -10,7 +10,16 @@
     <p>Find a trustworthy beast sitter in your vicinity or willing and able to travel there.</p>
     <input type="text" id="planetfield" placeholder="Your planet of residence">
 
-    <input type="text" id="dateField" placeholder="Select Imperial Date" readonly onclick="showCalendar()">
+    <div class="date-container">
+        <input type="text" id="dateField" placeholder="Select Imperial Date" readonly onclick="showCalendar()">
+        <div class="info-icon-container">
+            <span class="info-icon">?</span>
+            <div class="tooltip">
+                The Imperial Dating System begins with 3 digits referencing the current thousandth of the year, followed by 3 digits representing the year in the millenium. The date ends with an M and the current millennium. Example: 409024.M3 is sometime at the 29th May 2024.
+            </div>
+        </div>
+    </div>
+    
     <div id="calendar" class="custom-calendar">
         <div class="calendar-header">
             <button onclick="prevYear()">&lt;</button>
@@ -24,6 +33,8 @@
             <!-- Calendar grid gets generated dynamically -->
         </div>
     </div>
+
+    <button id="searchButton">Search</button>
 </div>
 
 @section Scripts {
